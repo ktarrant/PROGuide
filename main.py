@@ -32,7 +32,8 @@ pro_wiki_route_ids = {
         "Fuego_Ironworks", "Floaroma_Meadow", "Sandgem_Beach",
         "Route_219", "Route_220", "Route_221",
         "Iron_Island", "Wayward_Cave", "Valor_Lakefront", "Lake_Valor",
-        "Mt._Coronet", "Route_216", "Route_217", "Acuity_Lakefront",
+        "Mt._Coronet_North", "Mt._Coronet_South",
+        "Route_216", "Route_217", "Acuity_Lakefront",
     ]
 }
 
@@ -114,7 +115,7 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup):
 
             values = [value.replace("Morning", "Morn") for value in values]
             values[0] = StandAloneGraphic(f"pokemon/{pokemon}",
-                                          image_options=NoEscape(r'width=0.05\textwidth'))
+                                          image_options=NoEscape(r'width=0.02\textwidth'))
             values[-1] = TextColor(rarity_colors.get(values[-1], "black"),
                                    values[-1])
 
