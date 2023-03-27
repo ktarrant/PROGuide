@@ -13,7 +13,23 @@
 \usepackage{lastpage}%
 \usepackage{longtable}%
 \usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{mdframed}
+\usepackage[default]{gillius}
 \graphicspath{ {./imgs/} }
+
+\mdfdefinestyle{PokemonSpotlight}{%
+    linecolor=black,
+    outerlinewidth=2pt,
+    %roundcorner=20pt,
+    innertopmargin=4pt,
+    innerbottommargin=4pt,
+    innerrightmargin=4pt,
+    innerleftmargin=4pt,
+        leftmargin = 4pt,
+        rightmargin = 4pt
+    %backgroundcolor=gray!50!white}
+        }
 
 % Document
 \begin{document}
@@ -41,6 +57,31 @@ and be ready to choose your starter.
 Now go to the right and go to Prof. Rowan lab.
 
 \input{routes/Sinnoh/Route_201}
+
+\begin{mdframed}[style=MyFrame,nobreak=true,frametitle={Pokemon Spotlight: Bidoof}]
+
+The humble Bidoof may not seem like an opposing foe, but some of them are \emph{Moody}.
+The Hidden Ability \emph{Moody} raises one of the stats of the Pokémon with this
+Ability by two stages (at random), then decreases another stat by one stage (at random).
+A Bidoof or Bibarel that stays in battle long enough can reach maxed out stats
+and become an unstoppable threat.
+
+\begin{wrapfigure}{l}{0.33\textwidth}
+\includegraphics[width=0.33\textwidth]{walkthrough/Sinnoh/spotlight-bidoof}
+\label{fig:spotlight-bidoof}
+\end{wrapfigure}
+
+The \emph{Moody} ability is perceived as so overpowered that Moody Bibarel has been
+banned from most PvP formats.
+Although \emph{Moody} will show up in only 5\% of Bidoofs, it may be worth the
+grind in the early game to find one with this powerful ability, especially if
+you do not pick Piplup as your starter.
+The more common ability \emph{Simple} can also be utilized to double the effect of
+\emph{Swords Dance} and make Bidoof/Bibarel a threatening foe.
+Look for one with an Adamant nature and high IVs in Attack and Speed.
+
+%\end{center}
+\end{mdframed}
 
 \section{Lake Verity}\label{sec:Lake_Verity}
 \input{routes/Sinnoh/Lake_Verity}

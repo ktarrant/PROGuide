@@ -1,7 +1,13 @@
 import os
 from bs4 import BeautifulSoup
 import requests
-from pylatex import Section, Subsection, LongTable
+from pylatex import Section, Subsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
+
+rarity_colors = {
+    "Common": "black",
+    "Uncommon": "teal",
+    "Rare": "violet",
+}
 
 root_dir = os.path.dirname(__file__)
 
@@ -39,15 +45,38 @@ def load_route_page_soup(article_title: str) -> BeautifulSoup:
     return BeautifulSoup(html, 'html.parser')
 
 
-def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str = "Land"):
+def cache_image(pokemon: str, url: str):
+    imgs_dir = os.path.join(root_dir, "imgs")
+    if not os.path.exists(imgs_dir):
+        os.mkdir(imgs_dir)
+
+    pokemon_imgs_dir = os.path.join(imgs_dir, "pokemon")
+    if not os.path.exists(pokemon_imgs_dir):
+        os.mkdir(pokemon_imgs_dir)
+
+    _, ext = os.path.splitext(url)
+    cached_path = os.path.join(pokemon_imgs_dir, pokemon + ext)
+    if os.path.exists(cached_path):
+        return
+
+    print(f"Downloading image: {url}")
+    r = requests.get(url, stream=True)
+    if r.status_code == 200:
+        with open(cached_path, 'wb') as f:
+            for chunk in r:
+                f.write(chunk)
+
+
+def add_wild_pokemon(doc: Section, table: BeautifulSoup):
     # The headers on the PRO Wiki tables are misaligned
     # So let us manually specify the correct headers
-    land_headers = ["Img", "Pokémon", "Level Range",
-                    "Morning", "Day", "Night",
+    land_headers = ["", "Pokémon", "Level Range",
+                    "Morn", "Day", "Night",
                     "Held Item", "Rarity Tier"]
-    water_headers = ["Img", "Pokémon", "Level Range",
-                     "Morning", "Day", "Night",
-                     "Rod", "Held Item", "Rarity Tier"]
+    water_headers = ["", "Pokémon", "Level Range",
+                     "Morn", "Day", "Night",
+                     "",  # "Rod",
+                     "Held Item", "Rarity Tier"]
 
     rows = table.find_all("tr")
     headers = [th.text.strip() for th in rows[0].find_all("th")]
@@ -58,9 +87,11 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str = "Land"):
     if len(headers) == len(land_headers) - 3:
         headers = land_headers
         spec = "||" + " ".join("l" * len(land_headers)) + "||"
+        style = "Land"
     elif len(headers) == len(water_headers) - 3:
         headers = water_headers
         spec = "||" + " ".join("l" * len(water_headers)) + "||"
+        style = "Water"
     else:
         return
 
@@ -72,12 +103,25 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str = "Land"):
         data_table.add_hline()
 
         for row in rows[start_index:]:
-            values = [td.text.strip() for td in row.find_all("td")]
+            entries = row.find_all("td")
+            values = [td.text.strip() for td in entries]
             if len(values) != len(headers):
                 continue
 
+            pokemon = values[1]
+            img_link = entries[0].find("img").attrs["src"]
+            cache_image(pokemon, img_link)
+
+            values = [value.replace("Morning", "Morn") for value in values]
+            values[0] = StandAloneGraphic(f"pokemon/{pokemon}",
+                                          image_options=NoEscape(r'width=0.05\textwidth'))
+            values[-1] = TextColor(rarity_colors.get(values[-1], "black"),
+                                   values[-1])
+
             data_table.add_row(values)
             data_table.add_hline()
+
+    return style
 
 
 def cache_route_data(region: str, article_title: str):
@@ -89,21 +133,15 @@ def cache_route_data(region: str, article_title: str):
     if not os.path.exists(region_dir):
         os.mkdir(region_dir)
 
-    imgs_dir = os.path.join(root_dir, "imgs")
-    if not os.path.exists(imgs_dir):
-        os.mkdir(imgs_dir)
-
-    pokemon_imgs_dir = os.path.join(imgs_dir, "pokemon")
-    if not os.path.exists(pokemon_imgs_dir):
-        os.mkdir(pokemon_imgs_dir)
-
     soup = load_route_page_soup(article_title)
     pokemon_tables = [table for table in soup.find_all("table")
                       if "Level range" in table.text]
 
     doc = Subsection("Wild Pokemon")
     for table in pokemon_tables:
-        add_wild_pokemon(doc, table, style="Land")
+        style = add_wild_pokemon(doc, table)
+        doc.append(Command("caption",
+                           article_title.replace("_", " ") + f" Wild Pokemon ({style})"))
 
     latex_dest = os.path.join(region_dir, article_title + ".tex")
     with open(latex_dest, "w") as file:
