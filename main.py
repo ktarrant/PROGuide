@@ -68,7 +68,7 @@ def cache_image(pokemon: str, url: str):
                 f.write(chunk)
 
 
-def add_wild_pokemon(doc: Section, table: BeautifulSoup):
+def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str):
     # The headers on the PRO Wiki tables are misaligned
     # So let us manually specify the correct headers
     land_headers = ["", "Pokémon", "Level Range",
@@ -78,24 +78,39 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup):
                      "Morn", "Day", "Night",
                      "",  # "Rod",
                      "Held Item", "Rarity Tier"]
+    headbutt_headers = ["",  "Pokémon", "Level Range", "Rarity Tier"]
 
     rows = table.find_all("tr")
+    if len(rows) == 0:
+        return False
+
     headers = [th.text.strip() for th in rows[0].find_all("th")]
     start_index = 0
     if len(headers) == 0:
         headers = [th.text.strip() for th in rows[1].find_all("th")]
         start_index = 1
-    if len(headers) == len(land_headers) - 3:
-        headers = land_headers
-        spec = "||" + " ".join("l" * len(land_headers)) + "||"
-        style = "Land"
-    elif len(headers) == len(water_headers) - 3:
-        headers = water_headers
-        spec = "||" + " ".join("l" * len(water_headers)) + "||"
-        style = "Water"
-    else:
-        return
 
+    if style is None or style not in ["Land", "Water", "Headbuttable Trees"]:
+        if len(headers) == len(land_headers) - 3:
+            style = "Land"
+        elif len(headers) == len(water_headers) - 3:
+            style = "Water"
+        elif len(headers) == len(headbutt_headers) - 1:
+            style = "Headbuttable Trees"
+        else:
+            return False
+
+    if style == "Land":
+        headers = land_headers
+        start_index = 0
+    elif style == "Water":
+        headers = water_headers
+        start_index = 1
+    elif style == "Headbuttable Trees":
+        headers = headbutt_headers
+        start_index = 1
+
+    spec = "||" + " ".join("l" * len(headers)) + "||"
     with doc.create(LongTable(spec)) as data_table:
         data_table.add_hline()
         data_table.add_row(headers)
@@ -110,7 +125,11 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup):
                 continue
 
             pokemon = values[1]
-            img_link = entries[0].find("img").attrs["src"]
+            try:
+                img_link = entries[0].find("img").attrs["src"]
+            except AttributeError:
+                continue
+
             cache_image(pokemon, img_link)
 
             values = [value.replace("Morning", "Morn") for value in values]
@@ -122,10 +141,11 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup):
             data_table.add_row(values)
             data_table.add_hline()
 
-    return style
+    return True
 
 
-def cache_route_data(region: str, article_title: str):
+def process_content(region: str, article_title: str, section_header: str, subsection_header: str,
+                    contents: BeautifulSoup) -> Subsubsection:
     routes_dir = os.path.join(root_dir, "routes")
     if not os.path.exists(routes_dir):
         os.mkdir(routes_dir)
@@ -134,30 +154,55 @@ def cache_route_data(region: str, article_title: str):
     if not os.path.exists(region_dir):
         os.mkdir(region_dir)
 
-    soup = load_route_page_soup(article_title)
-    cursor = soup.find("h2")
-    while cursor is not None:
-        if cursor.text.strip() == "Wild Pokémon":
-            break
-        cursor = cursor.find_next_sibling("h2")
+    article_title = article_title.replace("_", " ")
 
-    cursor = cursor.find_next_sibling("h3")
-    while cursor is not None:
-        subtype = cursor.text.strip()
-        article_title_full = f"{article_title}_({subtype})"
+    if section_header == "Wild Pokémon":
+        section_title = "Wild Pokémon"
+        if subsection_header is None:
+            route_title = article_title
+        else:
+            if subsection_header.startswith(article_title):
+                subsection_header = subsection_header.replace(article_title + " ", "")
 
-        table = cursor.find_next_sibling()
+            route_title = f"{article_title} ({subsection_header})"
+            section_title += f" ({subsection_header})"
 
-        doc = Subsubsection(f"Wild Pokemon ({subtype})")
-        style = add_wild_pokemon(doc, table)
-        doc.append(Command("caption",
-                           article_title.replace("_", " ") + f" Wild Pokemon ({style})"))
+        doc = Subsubsection(section_title)
+        add_wild_pokemon(doc, contents, subsection_header)
+        doc.append(Command("caption", "Wild Pokemon in " + route_title))
 
-        latex_dest = os.path.join(region_dir, article_title_full + ".tex")
+        file_title = route_title.replace(" ", "_")
+        latex_dest = os.path.join(region_dir, file_title + ".tex")
         with open(latex_dest, "w") as file:
             doc.dump(file)
 
-        cursor = cursor.find_next_sibling("h3")
+        return doc
+
+
+    else:
+        print(f"Did not process content {section_header}, {subsection_header}")
+
+        return None
+
+
+def cache_route_data(region: str, article_title: str):
+    soup = load_route_page_soup(article_title)
+    cursor = soup.find("h2")
+    section_header = None
+    subsection_header = None
+    while cursor is not None:
+        if cursor.name == "h2":
+            section_header = cursor.text.strip()
+            subsection_header = None
+
+        elif cursor.name == "h3":
+            subsection_header = cursor.text.strip()
+
+        elif cursor.name == "table":
+            if section_header is not None:
+                process_content(region, article_title, section_header, subsection_header, cursor)
+
+        cursor = cursor.next_sibling
 
 
 if __name__ == "__main__":
