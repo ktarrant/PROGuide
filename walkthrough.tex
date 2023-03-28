@@ -16,10 +16,18 @@
 \usepackage{wrapfig}
 \usepackage{mdframed}
 \usepackage[default]{gillius}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{colortbl}
 \graphicspath{ {./imgs/} }
 
-\mdfdefinestyle{PokemonSpotlight}{%
+\definecolor{LightColor}{HTML}{DDEAEE}
+\definecolor{DarkColor}{HTML}{42445A}
+\definecolor{MedColor}{HTML}{8CACD0}
+\definecolor{GroundColor}{HTML}{D7B5A1}
+\definecolor{WaterColor}{HTML}{22B2EA}
+
+
+\mdfdefinestyle{PokemonSpotlight}{
     linecolor=black,
     outerlinewidth=2pt,
     %roundcorner=20pt,
@@ -27,13 +35,15 @@
     innerbottommargin=4pt,
     innerrightmargin=4pt,
     innerleftmargin=4pt,
-        leftmargin = 4pt,
-        rightmargin = 4pt
-    %backgroundcolor=gray!50!white}
-        }
+    leftmargin = 4pt,
+    rightmargin = 4pt,
+    backgroundcolor=MedColor!50!white
+}
+
 
 % Document
 \begin{document}
+\pagecolor{LightColor}
 
 \section{How To Go To Sinnoh}\label{sec:how-to-go-to-sinnoh}
 Talk with Paul in Lilycove city to start the Sinnoh quest.
@@ -59,7 +69,7 @@ Now go to the right and go to Prof. Rowan lab.
 
 \input{routes/Sinnoh/Route_201}
 
-\begin{mdframed}[style=MyFrame,nobreak=true,frametitle={Pokemon Spotlight: Bidoof}]
+\begin{mdframed}[style=PokemonSpotlight,nobreak=true,frametitle={Pokemon Spotlight: Bidoof}]
 
 The humble Bidoof may not seem like an opposing foe, but some of them are \emph{Moody}.
 The Hidden Ability \emph{Moody} raises one of the stats of the Pokémon with this
@@ -275,7 +285,18 @@ Jolly or Impish Nature can also work.
 
 \end{mdframed}
 
+\section{Mt. Coronet South}\label{sec:mt.-coronet-south}
+
+
 \section{Route 208}\label{sec:Route_208}
+
+\subsection{Notables}\label{subsec:notables-route-208}
+
+\begin{itemize}
+    \item 2x Rawst Berry
+    \item Pecha Berry
+\end{itemize}
+
 \input{routes/Sinnoh/Route_208_(Land)}
 \input{routes/Sinnoh/Route_208_(Water)}
 
@@ -399,10 +420,11 @@ To go to Pastoria City you need to go to Route 214 in the south and follow all t
 \input{routes/Sinnoh/Route_214_(Land)}
 \input{routes/Sinnoh/Route_214_(Water)}
 
-\section{Valor Lakefront}\label{sec:Valor_Lakefront}
-\input{routes/Sinnoh/Valor_Lakefront}
-
 \section{Route 213}\label{sec:Route_213}
+
+\paragraph Valor Lakefront For now the Lake itself is blocked from access, so
+we are quickly passing through the Lakefront as we continue through Route 213.
+
 \input{routes/Sinnoh/Route_213_(Land)}
 \input{routes/Sinnoh/Route_213_(Water)}
 
@@ -456,10 +478,59 @@ Otherwise we are blocked by the Onix and Steelix.
 
 \input{routes/Sinnoh/Mt._Coronet_North_(Mt._Coronet_Center)}
 
+\section{New Locations Available via Surf}\label{sec:new-locations-available-via-surf}
+
+From Celestic Town head west to Route 210 and then South through
+Solaceon Town to Route 209.
+
+\paragraph{Route 209}
+Go to the coast south of the bridge, where Poké Kid Danielle stands.
+Head to the east of the rock, then surf along the river.
+You can collect TM19 (Giga Drain).
+
+\paragraph{Route 212}
+Continue west to Hearthome City and then head south to Route 212.
+
+In the southern part, use Surf by the southernmost fisherman on the bridge.
+Head west to find a small area behind two trees,
+where you can use the Dowsing Machine to find a hidden Protein.
+In addition, the middle of the square of logs and bridges, you can surf southwest to find TM84 (Poison Jab).
+
+At the southwest of Pokémon Mansion, surf west on the pond and you can collect some Berries.
+
+In the northern part, west of the Pokémon Mansion, use surf on a pond, and get to the isolated area.
+You can get Rose Incense.
+
+\paragraph{Pastoria City}
+Use Surf near the guy who stands at the middle of the city.
+Surf east and stop surfing between two trees.
+Head inside and you can find the item Mystic Water,
+which boosts the power of the Water-type moves of a Pokémon that holds it.
+
+\paragraph{Route 213}
+Surf southeast from Fisherman Kenneth (the fisherman that fought you).
+Head into the sea between two rocks.
+There are a few Trainers for you to fight and some items for you to collect in that area.
+
+\paragraph{Eterna City}
+Go to the Route 211 exit.
+You will find two ponds near the exit.
+Surf on the north one, then you will find a hidden PP Up.
+You will find nothing on the south one, so ignore it.
+
+\paragraph{Mt. Coronet (South)}
+Head to the south.
+Go up the stairs that leads to another pond.
+Surf east, and you can get the Dawn Stone.
+Upstairs you can find Rock Slide.
+There is a Galactic Grunt protecting a passage way but you cannot access yet.
+
+\paragraph{Route 214}
+Go to the northeast.
+There is a pond.
+Surf to the northeast of the pond and collect a Rare Candy.
+
 \section{Back to Hearthome City}\label{sec:back-to-hearthome-city}
-Go back to Hearthome City by going east of Celestic Town, to Route 210 (North).
-Then through to Route 210 and then south to Solaceon Town.
-Then through further south to Route 209.
 The Gym in Hearthome City is next to where you battled with Barry next to Route 209.
 Once in Hearthome City go to the gym and be ready to battle.
 
@@ -478,13 +549,57 @@ Fantina uses Ghost-type Pokemon.
 Beat her and you will get the Relic Badge.
 She will tell us to visit the Library in Canalave City.
 
-\section{Back to Route 218}\label{sec:back-to-route-218}
+\section{Back to Jubilife City}\label{sec:back-to-jubilife-city}
+Time to travel back to Jubilife City, by way of Route 208.
+On the way we will visit more newly available Surf locations.
+
+\paragraph{Route 208}
+Backtrack to Hearthome City then contiue west to Route 208.
+Go down the stairs west of Black Belt Kyle.
+Surf clockwise.
+Ignore the waterfall for now.
+You can fight Fisherman Cody.
+
+\paragraph{Valley Windworks}
+Use surf on the coast of the tall grass, and surf to the north, then turn east.
+You can find a hidden Max Elixir under a wind turbine north of the fence and
+TM24 (Thunderbolt) on an island directly north of Valley Windworks building.
+
+\paragraph{Route 204 (South)}
+Head to the southern part of this route.
+Use Surf on the northeast and southwest ponds.
+You can get a HP Up and a Sea Incense.
+
+\paragraph{Ravaged Path} \emph{Rock Smash needed.}
+Use Rock Smash, head west and Surf to the north.
+Stop surfing on the first turn of the river.
+Head in and use Rock Smash along the way.
+You will then find a Luck Incense.
+Jump down the ledges and surf deeper.
+You will end up in the northeast dead end.
+Collect TM03 (Water Pulse).
+
+\paragraph{Oreburgh Gate}
+\emph{Surf, Rock Smash, and Strength needed.}
+Go to the basement.
+Head south, then Surf to the west.
+You can fight Veteran Grant, the only Trainer that uses a Riolu.
+But you will need the ability to use Strength on the field to get the items.
+Come back when you have the sixth Badge.
+
+\paragraph{Twinleaf Town}
+Say Hi to Grandma :).
+Odd Keystone in a tree along the left side of the pond (requires Surf) (hidden)
 
 \includegraphics[width=\textwidth]{walkthrough/Sinnoh/Route_218}
 
-Travel back to Jubilife City, by way of .
+\paragraph{Route 218}
+
+Backtrack to Jubilife.
 Remember at the start of the story when we need to find Barry?
 Go back to that place in route 218 and Surf.
+
+\input{routes/Sinnoh/Route_218_(Water)}
 
 \section{Canalave City}\label{sec:canalave-city}
 

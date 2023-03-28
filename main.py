@@ -5,8 +5,8 @@ from pylatex import Section, Subsubsection, LongTable, Command, TextColor, Stand
 
 rarity_colors = {
     "Common": "black",
-    "Uncommon": "teal",
-    "Rare": "violet",
+    "Uncommon": "OliveGreen",
+    "Rare": "RedOrange",
 }
 
 root_dir = os.path.dirname(__file__)
@@ -90,7 +90,7 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str):
         headers = [th.text.strip() for th in rows[1].find_all("th")]
         start_index = 1
 
-    if style is None or style not in ["Land", "Water", "Headbuttable Trees"]:
+    if style is None:
         if len(headers) == len(land_headers) - 3:
             style = "Land"
         elif len(headers) == len(water_headers) - 3:
@@ -102,22 +102,30 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str):
 
     if style == "Land":
         headers = land_headers
+        bgcolor = "GroundColor"
         start_index = 0
     elif style == "Water":
         headers = water_headers
+        bgcolor = "WaterColor"
         start_index = 1
     elif style == "Headbuttable Trees":
         headers = headbutt_headers
+        bgcolor = "GroundColor"
         start_index = 1
+    else:
+        headers = land_headers
+        bgcolor = "gray"
+        start_index = 0
 
     spec = "||" + " ".join("l" * len(headers)) + "||"
     with doc.create(LongTable(spec)) as data_table:
         data_table.add_hline()
-        data_table.add_row(headers)
+        data_table.add_row(headers, color=bgcolor)
         data_table.add_hline()
         data_table.end_table_header()
         data_table.add_hline()
 
+        color_index = 0
         for row in rows[start_index:]:
             entries = row.find_all("td")
             values = [td.text.strip() for td in entries]
@@ -138,7 +146,8 @@ def add_wild_pokemon(doc: Section, table: BeautifulSoup, style: str):
             values[-1] = TextColor(rarity_colors.get(values[-1], "black"),
                                    values[-1])
 
-            data_table.add_row(values)
+            data_table.add_row(values, color=bgcolor)
+            color_index = 1 if color_index == 0 else 0
             data_table.add_hline()
 
     return True
