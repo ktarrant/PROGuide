@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import requests
-from pylatex import Section, Subsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
+from pylatex import Section, Subsubsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
 
 rarity_colors = {
     "Common": "black",
@@ -135,20 +135,29 @@ def cache_route_data(region: str, article_title: str):
         os.mkdir(region_dir)
 
     soup = load_route_page_soup(article_title)
-    pokemon_tables = [table for table in soup.find_all("table")
-                      if "Level range" in table.text]
+    cursor = soup.find("h2")
+    while cursor is not None:
+        if cursor.text.strip() == "Wild Pokémon":
+            break
+        cursor = cursor.find_next_sibling("h2")
 
-    doc = Subsection("Wild Pokemon")
-    for table in pokemon_tables:
+    cursor = cursor.find_next_sibling("h3")
+    while cursor is not None:
+        subtype = cursor.text.strip()
+        article_title_full = f"{article_title}_({subtype})"
+
+        table = cursor.find_next_sibling()
+
+        doc = Subsubsection(f"Wild Pokemon ({subtype})")
         style = add_wild_pokemon(doc, table)
         doc.append(Command("caption",
                            article_title.replace("_", " ") + f" Wild Pokemon ({style})"))
 
-    latex_dest = os.path.join(region_dir, article_title + ".tex")
-    with open(latex_dest, "w") as file:
-        doc.dump(file)
+        latex_dest = os.path.join(region_dir, article_title_full + ".tex")
+        with open(latex_dest, "w") as file:
+            doc.dump(file)
 
-    return doc
+        cursor = cursor.find_next_sibling("h3")
 
 
 if __name__ == "__main__":
