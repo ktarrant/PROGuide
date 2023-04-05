@@ -18,22 +18,21 @@ request_headers = {'User-Agent': user_agent}
 
 pro_wiki_route_ids = {
     "Sinnoh": [
-        "Lake_Verity", "Route_201", "Route_202",
-        "Route_218",
-        "Route_203", "Route_204",
-        "Ravaged_Path", "Oreburgh_Gate", "Route_207", "Oreburgh_Mine",
-        "Route_205", "Valley_Windworks", "Eterna_Forest",
-        "Route_211", "Mt._Coronet", "Old_Chateau",
-        "Route_206", "Wayward_Cave", "Route_207", "Route_208",
-        "Amity_Square", "Route_209", "Lost_Tower", "Solaceon_Ruins",
-        "Route_210", "Route_215", "Route_214", "Valor_Lakefront",
-        "Route_213", "Great_Marsh",
-        "Route_212", "Route_210", "Route_211",
-        "Fuego_Ironworks", "Floaroma_Meadow", "Sandgem_Beach",
-        "Route_219", "Route_220", "Route_221",
-        "Iron_Island", "Wayward_Cave", "Valor_Lakefront", "Lake_Valor",
-        "Mt._Coronet_North", "Mt._Coronet_South",
-        "Route_216", "Route_217", "Acuity_Lakefront",
+        "Lake_Verity", "Valor_Lakefront", "Lake_Valor", "Acuity_Lakefront",
+        "Valley_Windworks", "Eterna_Forest",
+        "Ravaged_Path", "Oreburgh_Gate", "Oreburgh_Mine", "Wayward_Cave",
+        "Old_Chateau", "Amity_Square", "Lost_Tower",
+        "Fuego_Ironworks", "Iron_Island",
+        "Mt._Coronet_North", "Mt._Coronet_South", "Mt._Coronet_Summit",
+        "Sinnoh_Victory_Road_1F",
+
+        "Route_201", "Route_202", "Route_203", "Route_204",
+        "Route_205", "Route_206", "Route_207", "Route_208",
+        "Route_209", "Route_210", "Route_211",
+        "Route_212_South", "Route_212_North",
+        "Route_213", "Route_214", "Route_215", "Route_216",
+        "Route_217", "Route_218", "Route_219", "Route_220",
+        "Route_221", "Route_222", "Route_223"
     ]
 }
 
