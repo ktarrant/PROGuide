@@ -1,0 +1,19 @@
+{
+    "Sinnoh": [
+        "Lake_Verity", "Valor_Lakefront", "Lake_Valor", "Acuity_Lakefront",
+        "Valley_Windworks", "Eterna_Forest",
+        "Ravaged_Path", "Oreburgh_Gate", "Oreburgh_Mine", "Wayward_Cave",
+        "Old_Chateau", "Amity_Square", "Lost_Tower",
+        "Fuego_Ironworks", "Iron_Island",
+        "Mt._Coronet_North", "Mt._Coronet_South", "Mt._Coronet_Summit",
+        "Sinnoh_Victory_Road_1F",
+
+        "Route_201", "Route_202", "Route_203", "Route_204",
+        "Route_205", "Route_206", "Route_207", "Route_208",
+        "Route_209", "Route_210", "Route_211",
+        "Route_212_South", "Route_212_North",
+        "Route_213", "Route_214", "Route_215", "Route_216",
+        "Route_217", "Route_218", "Route_219", "Route_220",
+        "Route_221", "Route_222", "Route_223"
+    ]
+}
