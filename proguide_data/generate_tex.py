@@ -1,5 +1,5 @@
 import os
-from pylatex import Section, Subsubsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
+from pylatex import Subsubsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
 from typing import List
 from . import get_route_data, get_route_output_path
 
@@ -8,6 +8,27 @@ rarity_colors = {
     "Uncommon": "OliveGreen",
     "Rare": "RedOrange",
 }
+
+spawn_times_colors = {
+    "Morning": "yellow",
+    "Day": "orange",
+    "Night": "blue",
+}
+no_spawn_color = "gray"
+
+
+def generate_spawn_times_text(spawn_times: List[str]) -> str:
+    rv = []
+    for spawn_time in spawn_times_colors:
+        if spawn_time in spawn_times:
+            color = spawn_times_colors[spawn_time]
+            spawn_time = spawn_time.replace("Morning", "Morn")
+            rv += [f"\\textcolor{{{color}}}{{{spawn_time}}}"]
+        else:
+            pass
+            # spawn_time = spawn_time.replace("Morning", "Morn")
+            # rv += [f"\\textcolor{{{no_spawn_color}}}{{\\sout{{{spawn_time}}}}}"]
+    return NoEscape("  ".join(rv))
 
 
 def generate_wild_pokemon_snippet(route_name: str, area: str, table: List, output_file: str):
@@ -33,6 +54,10 @@ def generate_wild_pokemon_snippet(route_name: str, area: str, table: List, outpu
     del headers[img_index]
     headers = [""] + headers
     rarity_index = headers.index("Rarity Tier")
+    try:
+        spawn_times_index = headers.index("Spawn Times")
+    except ValueError:
+        spawn_times_index = -1
 
     spec = "||" + " ".join("l" * len(headers)) + "||"
     with doc.create(LongTable(spec)) as data_table:
@@ -51,7 +76,8 @@ def generate_wild_pokemon_snippet(route_name: str, area: str, table: List, outpu
             ]
             values += list(row.values())
             values[rarity_index] = TextColor(rarity_colors.get(values[rarity_index], "black"), values[rarity_index])
-
+            if spawn_times_index >= 0:
+                values[spawn_times_index] = generate_spawn_times_text(values[spawn_times_index])
             data_table.add_row(values, color=bgcolor)
             color_index = 1 if color_index == 0 else 0
             data_table.add_hline()
