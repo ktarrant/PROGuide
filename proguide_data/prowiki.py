@@ -112,6 +112,37 @@ def add_wild_pokemon(data: Dict[str, object], table: BeautifulSoup, style: str):
     return True
 
 
+def add_items(data: Dict[str, object], table: BeautifulSoup):
+    headers = ["Image"] + [th.text.strip() for th in table.find_all("th")]
+
+    rows = table.find_all("tr")
+    if len(rows) == 0:
+        return False
+
+    data_table = []
+    for row in rows[1:]:
+        entries = row.find_all("td")
+        values = [td.text.strip() for td in entries]
+        if len(values) != len(headers):
+            continue
+
+        try:
+            img_link = entries[0].find("img").attrs["src"]
+        except AttributeError:
+            continue
+
+        # cached_image = cache_image(pokemon, img_link)
+
+        row_data = dict(Image="")  # cached_image
+        row_data.update(
+            {key: value for key, value in zip(headers, values) if key}
+        )
+        data_table += [row_data]
+
+    data["items"] = data_table
+    return True
+
+
 def get_page_data(article_title: str) -> Dict[str, object]:
     """
     Returns a dict with the route information extracted from a prowiki page.
@@ -132,11 +163,12 @@ def get_page_data(article_title: str) -> Dict[str, object]:
             subsection_header = cursor.text.strip()
 
         elif cursor.name == "table":
-            if section_header is not None:
-                if section_header == "Wild Pokémon":
-                    add_wild_pokemon(data, cursor, subsection_header)
-                else:
-                    print(f"Did not process content {section_header}, {subsection_header}")
+            if section_header == "Wild Pokémon":
+                add_wild_pokemon(data, cursor, subsection_header)
+            elif section_header == "Items":
+                add_items(data, cursor)
+            else:
+                print(f"Did not process content {section_header}, {subsection_header}")
 
         cursor = cursor.next_sibling
 

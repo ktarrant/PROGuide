@@ -192,7 +192,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Potion",
+                    "Quantity": "2-3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the middle of the south-westmost patch of grass."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pokeball",
+                    "Quantity": "5",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Partially hidden by a tree at the north-westmost patch of grass."
+                }
+            ]
         },
         "Route_203": {
             "name": "Route 203",
@@ -366,7 +382,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Great Ball",
+                    "Quantity": "1-2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On the other side of the tree east of Ash Ketchum in the northwest corner."
+                },
+                {
+                    "Image": "",
+                    "Item": "Repel",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "North of the water square in center north."
+                }
+            ]
         },
         "Lake_Verity": {
             "name": "Lake Verity",
@@ -607,7 +639,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Sun Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east corner of the area. Requires to use Rock Climb on the east side of Route 213."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM42 \u2014 Dream Eater",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the end of the western path, which must be entered from Route 213. Requires Rock Climb."
+                }
+            ]
         },
         "Lake_Valor": {
             "name": "Lake Valor",
@@ -933,7 +981,30 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Reaper Cloth",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Behind the large tree slightly west of the Lake Acuity entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "5",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. At the very end of the westmost path."
+                },
+                {
+                    "Image": "",
+                    "Item": "Focus Sash",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the small rock between the two trees in the north-east wall of the route."
+                }
+            ]
         },
         "Valley_Windworks": {
             "name": "Valley Windworks",
@@ -1180,7 +1251,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "TM24 \u2014 Thunderbolt",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Just over the fence west of the building. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Super Potion",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the windmill directly in front of the building."
+                }
+            ]
         },
         "Eterna_Forest": {
             "name": "Eterna Forest",
@@ -1350,7 +1437,37 @@
                         "Rarity Tier": "Rare"
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Antidote",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On the upper far west side of the forest."
+                },
+                {
+                    "Image": "",
+                    "Item": "Paralyze Heal",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east part, along the eastmost path."
+                },
+                {
+                    "Image": "",
+                    "Item": "Great Ball",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the far north, next to the Old Chateau. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Insect Plate",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the plant immediately to the east of the Old Chateau. Requires Cut."
+                }
+            ]
         },
         "Ravaged_Path": {
             "name": "Ravaged Path",
@@ -1468,7 +1585,44 @@
                     }
                 ],
                 "Diggable Patches": []
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Potion",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Dusk Stone",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Big Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Macho Brace",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                }
+            ]
         },
         "Oreburgh_Gate": {
             "name": "Oreburgh Gate",
@@ -1536,7 +1690,44 @@
                     }
                 ],
                 "Oreburgh Gate B1F": []
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Moon Stone",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches on Oreburgh Gate B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "HP Up",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches on Oreburgh Gate B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Stardust",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches on Oreburgh Gate B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches on Oreburgh Gate B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Protector",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches on Oreburgh Gate B1F."
+                }
+            ]
         },
         "Oreburgh_Mine": {
             "name": "Oreburgh Mine",
@@ -2562,7 +2753,16 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Dread Plate",
+                    "Quantity": "1",
+                    "Cooldown": "Indefinite",
+                    "Location": "In 2F 1R, the westmost room of 2F."
+                }
+            ]
         },
         "Amity_Square": {
             "name": "Amity Square",
@@ -3122,7 +3322,30 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Oval Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the center south of 1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-west corner of 2F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Great Ball",
+                    "Quantity": "3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-west corner of 3F."
+                }
+            ]
         },
         "Fuego_Ironworks": {
             "name": "Fuego Ironworks",
@@ -3373,7 +3596,58 @@
                         "Rarity Tier": "Rare"
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Burn Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Slightly west from the center of the interior."
+                },
+                {
+                    "Image": "",
+                    "Item": "Fire Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-east corner of the interior."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rock Incense",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Near the south-east corner of the interior."
+                },
+                {
+                    "Image": "",
+                    "Item": "Hyper Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the orange barrel without a logo on it in the north-west corner of the interior."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM85 \u2014 Flamethrower",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On one of the barrels in the center north room of the interior, directly north from Worker Holden."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. Behind the tree directly in front of the building entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Lum Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees a little south of the building. There are 3 of them."
+                }
+            ]
         },
         "Iron_Island": {
             "name": "Iron Island",
@@ -4189,7 +4463,51 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Super Repel",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Slightly north of Route 211\u2019s western exit in Mt. Coronet Center. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "PP Up",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the middle of the lake in Mt. Coronet B1F. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the end of the narrow path in the north-east of Mt. Coronet B1F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. After going down the stairs between the two westmost Galactic Grunts, on the closest accessible rock to the water in B1F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "HP Up",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the south-eastmost rock in Mt. Coronet North."
+                },
+                {
+                    "Image": "",
+                    "Item": "Eviolite",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Directly south from the north entrance in Mt. Coronet Tunnel, in an area enclosed by Rock Smash rocks."
+                }
+            ]
         },
         "Mt._Coronet_South": {
             "name": "Mt. Coronet South",
@@ -4391,7 +4709,51 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Dusk Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east corner of Mt. Coronet South. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM48 \u2014 Rock Slide",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-west corner of Mt. Coronet 2F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Escape Rope",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Near the north-west corner of Mt. Coronet 2F, next to the Rock Smash rocks."
+                },
+                {
+                    "Image": "",
+                    "Item": "Hyper Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-east corner of the main part of Mt. Coronet 2F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Star Piece",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the east-most room of Mt. Coronet 2F, accessible from the eastmost ladder of 3F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the rock adjacent to the stairs in Mt. Coronet 3F."
+                }
+            ]
         },
         "Mt._Coronet_Summit": {
             "name": "Mt. Coronet Summit",
@@ -4882,7 +5244,79 @@
                     }
                 ],
                 "Diggable Patches": []
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Full Restore",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Right next to the Magnet Rise tutor in the center east of Mt. Coronet Summit."
+                },
+                {
+                    "Image": "",
+                    "Item": "Full Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the center north of Mt. Coronet Summit."
+                },
+                {
+                    "Image": "",
+                    "Item": "Moon Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the large rock in the north-east corner of Mt. Coronet Summit."
+                },
+                {
+                    "Image": "",
+                    "Item": "Escape Rope",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Slightly west of the north-east exit to outside in Mt. Coronet 4F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Elixir",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On one of the rocks in the center of Mt. Coronet 5F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the north-eastmost rock in Mt. Coronet 6F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Repel",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ice Heal",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Super Repel",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                }
+            ]
         },
         "Sinnoh_Victory_Road_1F": {
             "name": "Sinnoh Victory Road 1F",
@@ -5315,7 +5749,114 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Razor Claw",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east corner of 1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-west corner of 1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Full Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Near the nothern exit, in front of Trainer Alex in 1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the very end of the south-east path in 2F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Zinc",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-west corner of 2F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Repel",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the wall block adjacent to the rock smash rocks in the south-east corner, north-east from Psychic Bryce in 2F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the rock one tile north of the northmost rock smash rock in the south-east path of 2F. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Elixir",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Across the water from Fakuman, in the middle of B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. From the south-westmost ladder, on the westmost accessible small rock before going down the stairs in B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Calcium",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the small rock Black Belt Velskulz is running around near the north-west stairs of B1F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Full Restore",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-west corner of B1F Deep. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ether",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the middle of the northern body of water at the end of the south-east path in B1F Deep."
+                },
+                {
+                    "Image": "",
+                    "Item": "HP Up",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the west corner of the rock maze in the middle of B1F Deep."
+                },
+                {
+                    "Image": "",
+                    "Item": "Big Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. After entering the maze part from the south, follow the path north, west, north, east, then go south one tile, on the rock to the east in B1F Deep. Hinted by Mrs. Cherry."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leftovers",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. After entering the maze part from the center, follow the path north, west one tile, north, west, south, west, north, on the rock to the north in B1F Deep."
+                }
+            ]
         },
         "Route_204": {
             "name": "Route 204",
@@ -5520,7 +6061,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Paralyze Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the end of the path beyond the east fence near the southern exit. The path can be entered from south of the fence."
+                },
+                {
+                    "Image": "",
+                    "Item": "HP Up",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden Item. Behind a tree at the end of the small path east of the north-east body of water."
+                }
+            ]
         },
         "Route_205": {
             "name": "Route 205",
@@ -5737,7 +6294,37 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Antidote",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On the side of the mountain, just before the bridge connecting two mountain parts. Must be accessed by going down the grassy path."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM138 \u2014 Sleep Talk",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the shortcut to skip Eterna Forest. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Lum Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree next to the Floaroma Town entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Sitrus Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree next to the Floaroma Town entrance."
+                }
+            ]
         },
         "Route_206": {
             "name": "Route 206",
@@ -5860,7 +6447,30 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "7 days",
+                    "Location": "In the north-west corner of the ground level, west of the Warward Cave entrances."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leftovers",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. After crossing the water, on the 2\u00d73 wall at the end of the north-west path, to the west of Biker Nicole."
+                },
+                {
+                    "Image": "",
+                    "Item": "Burn Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the rock adjacent to Hiker Theodore, in the lower north-east part of the route."
+                }
+            ]
         },
         "Route_207": {
             "name": "Route 207",
@@ -5959,7 +6569,58 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Iron",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "A little north-west from the Rock Climb tutor."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revival Herb",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east corner of the route, accessible from an exit in Mt. Coronet 2F. Requires Rock Smash and Rock Climb."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden Item. In the south-east corner of the route, on the only rock next to the exit of Mt. Coronet 2F."
+                },
+                {
+                    "Image": "",
+                    "Item": "Oran Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree in the north-west corner."
+                },
+                {
+                    "Image": "",
+                    "Item": "Cheri Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree in the north-west corner."
+                },
+                {
+                    "Image": "",
+                    "Item": "Sitrus Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree in the north-west corner."
+                },
+                {
+                    "Image": "",
+                    "Item": "Lum Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry tree in the north-west corner."
+                }
+            ]
         },
         "Route_208": {
             "name": "Route 208",
@@ -6186,7 +6847,37 @@
                         "Rarity Tier": "Rare"
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Star Piece",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Directly north of the Mt Coronet entrance, which requires to do a detour."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "A little west from the eastmost set of stairs. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rawst Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees near the Berry Master house. There are two of them."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pecha Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree near the Berry Master house."
+                }
+            ]
         },
         "Route_209": {
             "name": "Route 209",
@@ -6390,7 +7081,93 @@
                     }
                 ],
                 "Diggable Patches": []
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Awakening",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north of the westmost patch of grass, just before the headbutt tree area."
+                },
+                {
+                    "Image": "",
+                    "Item": "Hyper Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Straight east from Hearthome\u2019s entrance, a little past the Pikachu."
+                },
+                {
+                    "Image": "",
+                    "Item": "Elixir",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "South-east from the Solaceon town entrance and Lost Tower. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Calcium",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Slightly west of the north entrance of the route. Requires Rock Climb."
+                },
+                {
+                    "Image": "",
+                    "Item": "Lum Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees north of the westmost bridges. There are 4 of them."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leppa Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees near the northmost Diggable Patches. There are two of them."
+                },
+                {
+                    "Image": "",
+                    "Item": "Oran Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree near the northmost Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Protein",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "PP Up",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Nugget",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                },
+                {
+                    "Image": "",
+                    "Item": "Electirizer",
+                    "Quantity": "1",
+                    "Cooldown": "3 days",
+                    "Location": "Diggable Patches."
+                }
+            ]
         },
         "Route_210": {
             "name": "Route 210",
@@ -6505,7 +7282,37 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Hyper Potion",
+                    "Quantity": "2-4",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the end of the western path, southwest from the Cafe Cabin."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "2-4",
+                    "Cooldown": "Not respawnable",
+                    "Location": "East of the northmost tall grass, pass the Psyducks."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leppa Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees in the south-east corner of the route. There are two of them."
+                },
+                {
+                    "Image": "",
+                    "Item": "Lum Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees in the south-east corner of the route. There are two of them."
+                }
+            ]
         },
         "Route_211": {
             "name": "Route 211",
@@ -6651,7 +7458,51 @@
                     }
                 ],
                 "Diggable Patches": []
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "TM62 \u2014 Taunt",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Below the southmost bridge in the west part. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the tree in the north-west corner of the west side of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM29 \u2014 Psychic",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the middle of the grass south of the east part."
+                },
+                {
+                    "Image": "",
+                    "Item": "Carbos",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-west corner of the east part. Requires Rock Smash."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the tree in the north-west corner of the west side of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leppa Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees next to the Celestic Town entrance. There are 3 of them."
+                }
+            ]
         },
         "Route_212_South": {
             "name": "Route 212 South",
@@ -6886,7 +7737,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Stardust",
+                    "Quantity": "1",
+                    "Cooldown": "7 days",
+                    "Location": "In the south-east corner of the swamp part, south of Ranger Taylor."
+                },
+                {
+                    "Image": "",
+                    "Item": "Dawn Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "At the end of the path north of Pastoria City\u2019s entrance."
+                }
+            ]
         },
         "Route_212_North": {
             "name": "Route 212 North",
@@ -7119,7 +7986,51 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "TM61 \u2014 Sunny Day",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Beyond a ledge in the middle west of the route. Requires either Surf or Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Hyper Potion",
+                    "Quantity": "3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On one of the plants slightly south-west from the Pokemon Mansion\u2019s entrance door."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pecha Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree west of the entrance to the Pokemon Mansion front yard."
+                },
+                {
+                    "Image": "",
+                    "Item": "Oran Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree west of the entrance to the Pokemon Mansion front yard."
+                },
+                {
+                    "Image": "",
+                    "Item": "Hondew Berry",
+                    "Quantity": "3-9",
+                    "Cooldown": "4 days",
+                    "Location": "Berry Tree in the south-west corner. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Qualot Berry",
+                    "Quantity": "3-9",
+                    "Cooldown": "4 days",
+                    "Location": "Berry Tree in the south-west corner. Requires Surf."
+                }
+            ]
         },
         "Route_213": {
             "name": "Route 213",
@@ -7247,7 +8158,65 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Water Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On a mini-island in the far east, at the end of the southmost path. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM55 \u2014 Roar",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On top of the hill in the middle of the route. Requires Rock Climb."
+                },
+                {
+                    "Image": "",
+                    "Item": "PP Up",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the closest palm tree north of Dr. Footstep\u2019s House on the beach."
+                },
+                {
+                    "Image": "",
+                    "Item": "Big Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the south-eastmost small rock on the island in the south-east corner of the route. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pecha Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Pastoria City entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Cheri Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Pastoria City entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leppa Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Pastoria City entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Sitrus Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Pastoria City entrance."
+                }
+            ]
         },
         "Route_214": {
             "name": "Route 214",
@@ -7434,7 +8403,44 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Razor Fang",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On the southmost tall grass maze in the west path."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Potion",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Past the lake in the north-east corner. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Sitrus Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Trees in the north-east of the route. There are two of them."
+                },
+                {
+                    "Image": "",
+                    "Item": "Cheri Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree in the north-east of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Rawst Berry",
+                    "Quantity": "1-2",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree in the north-east of the route."
+                }
+            ]
         },
         "Route_215": {
             "name": "Route 215",
@@ -7595,7 +8601,58 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In center north of the route, near Black Belt Nathaniel. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On a small rock slightly south-east of Black Belt Gregory in center south of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Full Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. Behind a tree blocked by a Cut tree in center east of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pecha Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree below the eastmost bridge. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Oran Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree below the eastmost bridge. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Sitrus Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Veilstone City entrance."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leppa Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "Berry Tree next to the Veilstone City entrance."
+                }
+            ]
         },
         "Route_216": {
             "name": "Route 216",
@@ -7730,7 +8787,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "TM13 \u2014 Ice Beam",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-east of the map, a little north-east from Black Belt Philip."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ice Heal",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Just before the westmost set of stairs."
+                }
+            ]
         },
         "Route_217": {
             "name": "Route 217",
@@ -7865,7 +8938,44 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Protein",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Slightly north of Ace Trainer Peter, the second northmost trainer of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "TM57 \u2014 Hail",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Behind the tree east of the eastmost house in the northern side of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Revive",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden Item. On the small rock slightly north of Skier Bjorna, the third southmost Skier."
+                },
+                {
+                    "Image": "",
+                    "Item": "Max Potion",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden Item. On the log next to Black Belt Luke in the center west of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Ice Stone",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Behind the Northmost tree nearing the entrance of Acuity Lakefront."
+                }
+            ]
         },
         "Route_218": {
             "name": "Route 218",
@@ -8076,7 +9186,37 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Rare Candy",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-east corner of the route. Requires Surf."
+                },
+                {
+                    "Image": "",
+                    "Item": "Cheri Berry",
+                    "Quantity": "1-3",
+                    "Cooldown": "3 days",
+                    "Location": "In the north-east of the patch of grass."
+                },
+                {
+                    "Image": "",
+                    "Item": "Qualot Berry",
+                    "Quantity": "1-4",
+                    "Cooldown": "4 days",
+                    "Location": "In the north-east of the patch of grass."
+                },
+                {
+                    "Image": "",
+                    "Item": "Grepa Berry",
+                    "Quantity": "1-4",
+                    "Cooldown": "4 days",
+                    "Location": "In the north-east of the patch of grass."
+                }
+            ]
         },
         "Route_219": {
             "name": "Route 219",
@@ -8191,7 +9331,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Zinc",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the north-west corner."
+                },
+                {
+                    "Image": "",
+                    "Item": "Leftovers",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the sand castle in the middle of the island. Requires Surf."
+                }
+            ]
         },
         "Route_220": {
             "name": "Route 220",
@@ -8330,7 +9486,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Max Repel",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-west corner of the route."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the large rock two tiles right from SwimmerTrollrah, the southmost swimmer."
+                }
+            ]
         },
         "Route_221": {
             "name": "Route 221",
@@ -8543,7 +9715,16 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Carbos",
+                    "Quantity": "3",
+                    "Cooldown": "Not respawnable",
+                    "Location": "In the south-east corner of the route."
+                }
+            ]
         },
         "Route_222": {
             "name": "Route 222",
@@ -8816,7 +9997,30 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "PP Up",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Beyond the fence next to the eastmost trainer. Requires Cut."
+                },
+                {
+                    "Image": "",
+                    "Item": "Pearl",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the westmost large rock on the beach."
+                },
+                {
+                    "Image": "",
+                    "Item": "Full Restore",
+                    "Quantity": "2",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On a stump in the center-north of the route, north-west from Mr. Taufan."
+                }
+            ]
         },
         "Route_223": {
             "name": "Route 223",
@@ -8955,7 +10159,23 @@
                         ]
                     }
                 ]
-            }
+            },
+            "items": [
+                {
+                    "Image": "",
+                    "Item": "Ultra Ball",
+                    "Quantity": "5",
+                    "Cooldown": "Not respawnable",
+                    "Location": "On the north-westmost island."
+                },
+                {
+                    "Image": "",
+                    "Item": "Prism Scale",
+                    "Quantity": "1",
+                    "Cooldown": "Not respawnable",
+                    "Location": "Hidden item. On the north-westmost rock on the largest island with a Krabby and Sailor Funarel."
+                }
+            ]
         }
     }
 }
