@@ -1,5 +1,5 @@
 import os
-from pylatex import Subsubsection, LongTable, Command, TextColor, StandAloneGraphic, NoEscape
+from pylatex import LongTable, Command, TextColor, StandAloneGraphic, NoEscape, Label, Marker
 from typing import List
 from . import get_route_data, get_route_output_path
 
@@ -31,9 +31,12 @@ def generate_spawn_times_text(spawn_times: List[str]) -> str:
     return NoEscape("  ".join(rv))
 
 
-def generate_wild_pokemon_snippet(route_name: str, area: str, table: List, output_file: str):
-    route_title = f"{route_name} ({area})"
-    doc = Subsubsection(route_title)
+def generate_wild_pokemon_snippet(route_id: str, area: str, table: List, output_file: str):
+    route_name = route_id.replace("_", " ")
+    if area is None:
+        route_title = route_name
+    else:
+        route_title = f"{route_name} ({area})"
 
     if area == "Land":
         bgcolor = "GroundColor"
@@ -60,29 +63,32 @@ def generate_wild_pokemon_snippet(route_name: str, area: str, table: List, outpu
         spawn_times_index = -1
 
     spec = "||" + " ".join("l" * len(headers)) + "||"
-    with doc.create(LongTable(spec)) as data_table:
-        data_table.add_hline()
-        data_table.add_row(headers, color=bgcolor)
-        data_table.add_hline()
-        data_table.end_table_header()
-        data_table.add_hline()
+    doc = LongTable(spec)
+    doc.add_hline()
+    doc.add_row(headers, color=bgcolor)
+    doc.add_hline()
+    doc.end_table_header()
+    doc.add_hline()
 
-        color_index = 0
-        for row in table:
-            img_path = row.pop("Image")
-            values = [
-                StandAloneGraphic(f"{img_path}",
-                                  image_options=NoEscape(r'width=0.02\textwidth'))
-            ]
-            values += list(row.values())
-            values[rarity_index] = TextColor(rarity_colors.get(values[rarity_index], "black"), values[rarity_index])
-            if spawn_times_index >= 0:
-                values[spawn_times_index] = generate_spawn_times_text(values[spawn_times_index])
-            data_table.add_row(values, color=bgcolor)
-            color_index = 1 if color_index == 0 else 0
-            data_table.add_hline()
+    color_index = 0
+    for row in table:
+        img_path = row.pop("Image")
+        values = [
+            StandAloneGraphic(f"{img_path}",
+                              image_options=NoEscape(r'width=0.02\textwidth'))
+        ]
+        values += list(row.values())
+        values[rarity_index] = TextColor(rarity_colors.get(values[rarity_index], "black"), values[rarity_index])
+        if spawn_times_index >= 0:
+            values[spawn_times_index] = generate_spawn_times_text(values[spawn_times_index])
+        doc.add_row(values, color=bgcolor)
+        color_index = 1 if color_index == 0 else 0
+        doc.add_hline()
 
     doc.append(Command("caption", f"Wild Pokémon in {route_title}"))
+    label_id = route_id + "_" + area
+    label_id = label_id.replace("(", "").replace(")", "")
+    doc.append(Label(Marker(label_id, prefix="tab")))
 
     with open(output_file, "w") as file:
         doc.dump(file)
@@ -101,7 +107,7 @@ def generate_route_snippets():
                     print(f"Generating {route_id} Wild Pokemon ({area})")
                     table = route_info["wild_pokemon"][area]
                     output_file = os.path.join(route_dir, "Wild_Pokémon_({}).tex".format(area.replace(" ", "_")))
-                    generate_wild_pokemon_snippet(route_info["name"], area, table, output_file)
+                    generate_wild_pokemon_snippet(route_id, area, table, output_file)
 
 
 if __name__ == "__main__":
