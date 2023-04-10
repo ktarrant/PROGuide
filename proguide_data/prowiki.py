@@ -143,6 +143,33 @@ def add_items(data: Dict[str, object], table: BeautifulSoup):
     return True
 
 
+def add_npc_trainers(data: Dict[str, object], table: BeautifulSoup):
+    trainer_rows = table.find("tbody").find_all("tr", recursive=False)
+    data["trainers"] = []
+    for row in trainer_rows:
+        subtable = row.find("table")
+        if not subtable:
+            continue
+        subrows = subtable.tbody.find_all("tr", recursive=False)
+        trainer_name = subrows[0].td.text.strip()
+        pokemon_list = subrows[1].find_all("table")
+        pokemon_entries = []
+        for pokemon_entry in pokemon_list:
+            headers = ["Name", "Level"]
+            entry = {header: entry.text.strip()
+                     for header, entry in zip(headers, pokemon_entry.find_all("td")[1:])}
+            if entry["Name"] == "":
+                continue
+            pokemon_entries += [entry]
+        data["trainers"] += [
+            {
+                "Trainer": trainer_name,
+                "Pokemon": pokemon_entries
+            }
+        ]
+    return True
+
+
 def get_page_data(article_title: str) -> Dict[str, object]:
     """
     Returns a dict with the route information extracted from a prowiki page.
@@ -167,6 +194,8 @@ def get_page_data(article_title: str) -> Dict[str, object]:
                 add_wild_pokemon(data, cursor, subsection_header)
             elif section_header == "Items":
                 add_items(data, cursor)
+            elif section_header == "NPC Trainers":
+                add_npc_trainers(data, cursor)
             else:
                 print(f"Did not process content {section_header}, {subsection_header}")
 

@@ -208,6 +208,39 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Partially hidden by a tree at the north-westmost patch of grass."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Youngster Tristan",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 5"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Natalie",
+                    "Pokemon": [
+                        {
+                            "Name": "Bidoof",
+                            "Level": "Lv. 3"
+                        },
+                        {
+                            "Name": "Bidoof",
+                            "Level": "Lv. 3"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Logan",
+                    "Pokemon": [
+                        {
+                            "Name": "Shinx",
+                            "Level": "Lv. 5"
+                        }
+                    ]
+                }
             ]
         },
         "Route_203": {
@@ -398,6 +431,108 @@
                     "Cooldown": "Not respawnable",
                     "Location": "North of the water square in center north."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Barry",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv.\u00a0??"
+                        },
+                        {
+                            "Name": "Chimchar",
+                            "Level": "Lv.\u00a0??"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Barry",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv.\u00a0??"
+                        },
+                        {
+                            "Name": "Piplup",
+                            "Level": "Lv.\u00a0??"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Barry",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv.\u00a0??"
+                        },
+                        {
+                            "Name": "Turtwig",
+                            "Level": "Lv.\u00a0??"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Michael",
+                    "Pokemon": [
+                        {
+                            "Name": "Bidoof",
+                            "Level": "Lv. 7"
+                        },
+                        {
+                            "Name": "Zubat",
+                            "Level": "Lv. 7"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Dallas",
+                    "Pokemon": [
+                        {
+                            "Name": "Kricketot",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Kaitlin",
+                    "Pokemon": [
+                        {
+                            "Name": "Bidoof",
+                            "Level": "Lv. 6"
+                        },
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 7"
+                        },
+                        {
+                            "Name": "Budew",
+                            "Level": "Lv. 6"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Elder Sebastian",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Madeline",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 7"
+                        },
+                        {
+                            "Name": "Bidoof",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                }
             ]
         },
         "Lake_Verity": {
@@ -539,7 +674,35 @@
                         ]
                     }
                 ]
-            }
+            },
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Beautifly",
+                            "Level": "Lv. 55"
+                        },
+                        {
+                            "Name": "Dustox",
+                            "Level": "Lv. 56"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 56"
+                        },
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 57"
+                        }
+                    ]
+                }
+            ]
         },
         "Valor_Lakefront": {
             "name": "Valor Lakefront",
@@ -654,6 +817,21 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "At the end of the western path, which must be entered from Route 213. Requires Rock Climb."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Purugly",
+                            "Level": "Lv. 36"
+                        },
+                        {
+                            "Name": "Skuntank",
+                            "Level": "Lv. 40"
+                        }
+                    ]
                 }
             ]
         },
@@ -870,7 +1048,57 @@
                         "Rarity Tier": "Rare"
                     }
                 ]
-            }
+            },
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Croagunk",
+                            "Level": "Lv. 52"
+                        },
+                        {
+                            "Name": "Toxicroak",
+                            "Level": "Lv. 53"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Seismitoad",
+                            "Level": "Lv. 55"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 53"
+                        },
+                        {
+                            "Name": "Crobat",
+                            "Level": "Lv. 54"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Glameow",
+                            "Level": "Lv. 52"
+                        },
+                        {
+                            "Name": "Purugly",
+                            "Level": "Lv. 54"
+                        }
+                    ]
+                }
+            ]
         },
         "Acuity_Lakefront": {
             "name": "Acuity Lakefront",
@@ -1267,6 +1495,17 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the windmill directly in front of the building."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Glameow",
+                            "Level": "Lv. 15"
+                        }
+                    ]
+                }
             ]
         },
         "Eterna_Forest": {
@@ -1467,6 +1706,93 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the plant immediately to the east of the Old Chateau. Requires Cut."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Bug Catcher Jack",
+                    "Pokemon": [
+                        {
+                            "Name": "Wurmple",
+                            "Level": "Lv. 11"
+                        },
+                        {
+                            "Name": "Silcoon",
+                            "Level": "Lv. 13"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Briana",
+                    "Pokemon": [
+                        {
+                            "Name": "Pachirisu",
+                            "Level": "Lv. 11"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Psychic Lindsey",
+                    "Pokemon": [
+                        {
+                            "Name": "Abra",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Psychic Elijah",
+                    "Pokemon": [
+                        {
+                            "Name": "Misdreavus",
+                            "Level": "Lv. 15"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Bug Catcher Donald",
+                    "Pokemon": [
+                        {
+                            "Name": "Burmy",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Bug Catcher Phillip",
+                    "Pokemon": [
+                        {
+                            "Name": "Wurmple",
+                            "Level": "Lv. 11"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Psychic Kody",
+                    "Pokemon": [
+                        {
+                            "Name": "Meditite",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Psychic Simon",
+                    "Pokemon": [
+                        {
+                            "Name": "Psyduck",
+                            "Level": "Lv. 12"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ranger Sarah",
+                    "Pokemon": [
+                        {
+                            "Name": "Lillipup",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                }
             ]
         },
         "Ravaged_Path": {
@@ -1622,6 +1948,34 @@
                     "Cooldown": "3 days",
                     "Location": "Diggable Patches."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Mountain Pierre",
+                    "Pokemon": [
+                        {
+                            "Name": "Zubat",
+                            "Level": "Lv. 8"
+                        },
+                        {
+                            "Name": "Zubat",
+                            "Level": "Lv. 10"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Trainer Tony",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 12"
+                        },
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 15"
+                        }
+                    ]
+                }
             ]
         },
         "Oreburgh_Gate": {
@@ -1727,6 +2081,25 @@
                     "Cooldown": "3 days",
                     "Location": "Diggable Patches on Oreburgh Gate B1F."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Veteran Grant",
+                    "Pokemon": [
+                        {
+                            "Name": "Riolu",
+                            "Level": "Lv. 33"
+                        },
+                        {
+                            "Name": "Graveler",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Staraptor",
+                            "Level": "Lv. 34"
+                        }
+                    ]
+                }
             ]
         },
         "Oreburgh_Mine": {
@@ -1820,7 +2193,18 @@
                         ]
                     }
                 ]
-            }
+            },
+            "trainers": [
+                {
+                    "Trainer": "Worker Mason",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                }
+            ]
         },
         "Wayward_Cave": {
             "name": "Wayward Cave",
@@ -1898,7 +2282,52 @@
                         ]
                     }
                 ]
-            }
+            },
+            "trainers": [
+                {
+                    "Trainer": "Trainer Alex",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 20"
+                        },
+                        {
+                            "Name": "Graveler",
+                            "Level": "Lv. 22"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Sam",
+                    "Pokemon": [
+                        {
+                            "Name": "Zubat",
+                            "Level": "Lv. 20"
+                        },
+                        {
+                            "Name": "Zubat",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Not Brock",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 20"
+                        },
+                        {
+                            "Name": "Onix",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                }
+            ]
         },
         "Old_Chateau": {
             "name": "Old Chateau",
@@ -3345,6 +3774,48 @@
                     "Cooldown": "Not respawnable",
                     "Location": "In the south-west corner of 3F."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Pokefan Ariel",
+                    "Pokemon": [
+                        {
+                            "Name": "Eevee",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Picnicker Beth",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Camper Bob",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Nat",
+                    "Pokemon": [
+                        {
+                            "Name": "Murkrow",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Misdreavus",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                }
             ]
         },
         "Fuego_Ironworks": {
@@ -3646,6 +4117,56 @@
                     "Quantity": "1-2",
                     "Cooldown": "3 days",
                     "Location": "Berry Trees a little south of the building. There are 3 of them."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Worker Conrad",
+                    "Pokemon": [
+                        {
+                            "Name": "Rapidash",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Worker Dilan",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Worker Holden",
+                    "Pokemon": [
+                        {
+                            "Name": "Magnemite",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Magnemite",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Magneton",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Worker Tam",
+                    "Pokemon": [
+                        {
+                            "Name": "Steelix",
+                            "Level": "Lv. 36"
+                        }
+                    ]
                 }
             ]
         },
@@ -4176,7 +4697,31 @@
                         ]
                     }
                 ]
-            }
+            },
+            "trainers": [
+                {
+                    "Trainer": "Youngster Noel",
+                    "Pokemon": [
+                        {
+                            "Name": "Magnemite",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Magneton",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Trainer Braden",
+                    "Pokemon": [
+                        {
+                            "Name": "Steelix",
+                            "Level": "Lv. 34"
+                        }
+                    ]
+                }
+            ]
         },
         "Mt._Coronet_North": {
             "name": "Mt. Coronet North",
@@ -4514,6 +5059,59 @@
                     "Cost": "15000",
                     "Location": "Directly next to the exit to Route 216"
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 42"
+                        },
+                        {
+                            "Name": "Croagunk",
+                            "Level": "Lv. 44"
+                        },
+                        {
+                            "Name": "Glameow",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Skuntank",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 41"
+                        },
+                        {
+                            "Name": "Houndoom",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Skuntank",
+                            "Level": "Lv. 43"
+                        },
+                        {
+                            "Name": "Sableye",
+                            "Level": "Lv. 45"
+                        },
+                        {
+                            "Name": "Murkrow",
+                            "Level": "Lv. 44"
+                        }
+                    ]
+                }
             ]
         },
         "Mt._Coronet_South": {
@@ -4759,6 +5357,43 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the rock adjacent to the stairs in Mt. Coronet 3F."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Beautifly",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Dustox",
+                            "Level": "Lv. 41"
+                        },
+                        {
+                            "Name": "Golbat",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Dustox",
+                            "Level": "Lv. 45"
+                        }
+                    ]
                 }
             ]
         },
@@ -5322,6 +5957,39 @@
                     "Quantity": "1",
                     "Cooldown": "3 days",
                     "Location": "Diggable Patches."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Houndoom",
+                            "Level": "Lv. 52"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Stunky",
+                            "Level": "Lv. 49"
+                        },
+                        {
+                            "Name": "Skuntank",
+                            "Level": "Lv. 51"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Galactic Grunt",
+                    "Pokemon": [
+                        {
+                            "Name": "Piloswine",
+                            "Level": "Lv. 51"
+                        }
+                    ]
                 }
             ]
         },
@@ -6084,6 +6752,70 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden Item. Behind a tree at the end of the small path east of the north-east body of water."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Lass Sarah",
+                    "Pokemon": [
+                        {
+                            "Name": "Shinx",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Tyler",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Samantha",
+                    "Pokemon": [
+                        {
+                            "Name": "Budew",
+                            "Level": "Lv. 8"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lady Tailor",
+                    "Pokemon": [
+                        {
+                            "Name": "Budew",
+                            "Level": "Lv. 12"
+                        },
+                        {
+                            "Name": "Cherubi",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Bug Catcher Brandon",
+                    "Pokemon": [
+                        {
+                            "Name": "Wurmple",
+                            "Level": "Lv. 14"
+                        },
+                        {
+                            "Name": "Kricketot",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Liv",
+                    "Pokemon": [
+                        {
+                            "Name": "Pachirisu",
+                            "Level": "Lv. 15"
+                        }
+                    ]
+                }
             ]
         },
         "Route_205": {
@@ -6331,6 +7063,130 @@
                     "Cooldown": "3 days",
                     "Location": "Berry tree next to the Floaroma Town entrance."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Camper Jacob",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 11"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Tom",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 11"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 12"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Camper Zackary",
+                    "Pokemon": [
+                        {
+                            "Name": "Aipom",
+                            "Level": "Lv. 12"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Nicholas",
+                    "Pokemon": [
+                        {
+                            "Name": "Onix",
+                            "Level": "Lv. 12"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Battle Girl Kelsey",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 12"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Picnicker Karina",
+                    "Pokemon": [
+                        {
+                            "Name": "Piplup",
+                            "Level": "Lv. 13"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lady Elizabeth",
+                    "Pokemon": [
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 13"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Joseph",
+                    "Pokemon": [
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 17"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Andrew",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 8"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 10"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 12"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 12"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 14"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 16"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Zachary",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 14"
+                        },
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 16"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 14"
+                        }
+                    ]
+                }
             ]
         },
         "Route_206": {
@@ -6476,6 +7332,97 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the rock adjacent to Hiker Theodore, in the lower north-east part of the route."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Biker Pulsefanboy",
+                    "Pokemon": [
+                        {
+                            "Name": "Pikachu",
+                            "Level": "Lv. 21"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker Fairview",
+                    "Pokemon": [
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 17"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker Astary",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 16"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker Nicole",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 13"
+                        },
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker ChuanVan",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 15"
+                        },
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker MahatmaSepp",
+                    "Pokemon": [
+                        {
+                            "Name": "Shinx",
+                            "Level": "Lv. 21"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker Junokun",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Biker Markusrl",
+                    "Pokemon": [
+                        {
+                            "Name": "Pikachu",
+                            "Level": "Lv. 15"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Theodore",
+                    "Pokemon": [
+                        {
+                            "Name": "Onix",
+                            "Level": "Lv. 17"
+                        }
+                    ]
                 }
             ]
         },
@@ -6626,6 +7573,78 @@
                     "Quantity": "1-2",
                     "Cooldown": "3 days",
                     "Location": "Berry tree in the north-west corner."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Camper Jaccard",
+                    "Pokemon": [
+                        {
+                            "Name": "Chimchar",
+                            "Level": "Lv. 18"
+                        },
+                        {
+                            "Name": "Mr. Mime",
+                            "Level": "Lv. 19"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Picnicker Lauren",
+                    "Pokemon": [
+                        {
+                            "Name": "Pachirisu",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Kevin",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 17"
+                        },
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 17"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Austin",
+                    "Pokemon": [
+                        {
+                            "Name": "Buizel",
+                            "Level": "Lv. 18"
+                        },
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Battle Girl Helen",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 21"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Justin",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 17"
+                        },
+                        {
+                            "Name": "Nosepass",
+                            "Level": "Lv. 17"
+                        }
+                    ]
                 }
             ]
         },
@@ -6883,6 +7902,78 @@
                     "Quantity": "1-3",
                     "Cooldown": "3 days",
                     "Location": "Berry Tree near the Berry Master house."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Hiker Jonathan",
+                    "Pokemon": [
+                        {
+                            "Name": "Onix",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Kyle",
+                    "Pokemon": [
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Robert",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 19"
+                        },
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 19"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lady Hannah",
+                    "Pokemon": [
+                        {
+                            "Name": "Combee",
+                            "Level": "Lv. 17"
+                        },
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Artist William",
+                    "Pokemon": [
+                        {
+                            "Name": "Mime Jr.",
+                            "Level": "Lv. 18"
+                        },
+                        {
+                            "Name": "Bonsly",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Cody",
+                    "Pokemon": [
+                        {
+                            "Name": "Barboach",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 31"
+                        }
+                    ]
                 }
             ]
         },
@@ -7174,6 +8265,88 @@
                     "Cooldown": "3 days",
                     "Location": "Diggable Patches."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Pokemon Breeder Albert",
+                    "Pokemon": [
+                        {
+                            "Name": "Budew",
+                            "Level": "Lv. 16"
+                        },
+                        {
+                            "Name": "Bonsly",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Emma",
+                    "Pokemon": [
+                        {
+                            "Name": "Bonsly",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Lil",
+                    "Pokemon": [
+                        {
+                            "Name": "Mime Jr.",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Jogger Richard",
+                    "Pokemon": [
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 17"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Pikachu",
+                    "Pokemon": [
+                        {
+                            "Name": "Pikachu",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Jogger Paul",
+                    "Pokemon": [
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Pokemon Breeder Albert",
+                    "Pokemon": [
+                        {
+                            "Name": "Budew",
+                            "Level": "Lv. 16"
+                        },
+                        {
+                            "Name": "Mime Jr.",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Rancher Lambda",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                }
             ]
         },
         "Route_210": {
@@ -7318,6 +8491,47 @@
                     "Quantity": "1-2",
                     "Cooldown": "3 days",
                     "Location": "Berry Trees in the south-east corner of the route. There are two of them."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Waitress Kati",
+                    "Pokemon": [
+                        {
+                            "Name": "Clefairy",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Edwin",
+                    "Pokemon": [
+                        {
+                            "Name": "Munchlax",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Munchlax",
+                            "Level": "Lv. 25"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Fernando",
+                    "Pokemon": [
+                        {
+                            "Name": "Heracross",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Heracross",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Mr. Mime",
+                            "Level": "Lv. 26"
+                        }
+                    ]
                 }
             ]
         },
@@ -7508,6 +8722,69 @@
                     "Quantity": "1-2",
                     "Cooldown": "3 days",
                     "Location": "Berry Trees next to the Celestic Town entrance. There are 3 of them."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Hiker Louis",
+                    "Pokemon": [
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 14"
+                        },
+                        {
+                            "Name": "Onix",
+                            "Level": "Lv. 18"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Bird Keeper Alexandra",
+                    "Pokemon": [
+                        {
+                            "Name": "Starly",
+                            "Level": "Lv. 17"
+                        },
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 17"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Bird Keeper Katherine",
+                    "Pokemon": [
+                        {
+                            "Name": "Noctowl",
+                            "Level": "Lv. 34"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ruin Maniac Harry",
+                    "Pokemon": [
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 28"
+                        },
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 32"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Sean",
+                    "Pokemon": [
+                        {
+                            "Name": "Lucario",
+                            "Level": "Lv. 35"
+                        }
+                    ]
                 }
             ]
         },
@@ -7759,6 +9036,147 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "At the end of the path north of Pastoria City\u2019s entrance."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Scientist Shaun",
+                    "Pokemon": [
+                        {
+                            "Name": "Magnemite",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lass Liza",
+                    "Pokemon": [
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 27"
+                        },
+                        {
+                            "Name": "Bibarel",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ranger Taylor",
+                    "Pokemon": [
+                        {
+                            "Name": "Carnivine",
+                            "Level": "Lv. 28"
+                        },
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 30"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Josh",
+                    "Pokemon": [
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 28"
+                        },
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 28"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Travis",
+                    "Pokemon": [
+                        {
+                            "Name": "Barboach",
+                            "Level": "Lv. 24"
+                        },
+                        {
+                            "Name": "Barboach",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Barboach",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Juan",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 29"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Dean",
+                    "Pokemon": [
+                        {
+                            "Name": "Umbreon",
+                            "Level": "Lv. 27"
+                        },
+                        {
+                            "Name": "Espeon",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Danny",
+                    "Pokemon": [
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 26"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 28"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Scientist Stefano",
+                    "Pokemon": [
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 31"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ranger Allison",
+                    "Pokemon": [
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 29"
+                        },
+                        {
+                            "Name": "Leafeon",
+                            "Level": "Lv. 29"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ranger Jeffery",
+                    "Pokemon": [
+                        {
+                            "Name": "Monferno",
+                            "Level": "Lv. 31"
+                        }
+                    ]
                 }
             ]
         },
@@ -8037,6 +9455,96 @@
                     "Cooldown": "4 days",
                     "Location": "Berry Tree in the south-west corner. Requires Surf."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Lady Reina",
+                    "Pokemon": [
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Gentleman Jeremy",
+                    "Pokemon": [
+                        {
+                            "Name": "Chatot",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Dylan",
+                    "Pokemon": [
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 26"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Alex",
+                    "Pokemon": [
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 25"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Bobby",
+                    "Pokemon": [
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 24"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Caleb",
+                    "Pokemon": [
+                        {
+                            "Name": "Hoothoot",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Lady Melissa",
+                    "Pokemon": [
+                        {
+                            "Name": "Cherubi",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Rich Boy Jason",
+                    "Pokemon": [
+                        {
+                            "Name": "Prinplup",
+                            "Level": "Lv. 27"
+                        }
+                    ]
+                }
             ]
         },
         "Route_213": {
@@ -8222,6 +9730,142 @@
                     "Quantity": "1-2",
                     "Cooldown": "3 days",
                     "Location": "Berry Tree next to the Pastoria City entrance."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Tuber Jared",
+                    "Pokemon": [
+                        {
+                            "Name": "Shellos",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Shellos",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Shellos",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Tuber Chelsea",
+                    "Pokemon": [
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 28"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Kenneth",
+                    "Pokemon": [
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 25"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 28"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Beauty Cyndy",
+                    "Pokemon": [
+                        {
+                            "Name": "Glameow",
+                            "Level": "Lv. 29"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Pokemon Breeder xApoman",
+                    "Pokemon": [
+                        {
+                            "Name": "Blaziken",
+                            "Level": "Lv. 30"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Haley",
+                    "Pokemon": [
+                        {
+                            "Name": "Psyduck",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Azumarill",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Sailor Paul",
+                    "Pokemon": [
+                        {
+                            "Name": "Tentacool",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 34"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Sheltin",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 32"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Mary",
+                    "Pokemon": [
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 33"
+                        },
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Evan",
+                    "Pokemon": [
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 34"
+                        }
+                    ]
                 }
             ]
         },
@@ -8447,6 +10091,120 @@
                     "Cooldown": "3 days",
                     "Location": "Berry Tree in the north-east of the route."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Psychic Mitchell",
+                    "Pokemon": [
+                        {
+                            "Name": "Haunter",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ruin Maniac Bryan",
+                    "Pokemon": [
+                        {
+                            "Name": "Cranidos",
+                            "Level": "Lv. 24"
+                        },
+                        {
+                            "Name": "Geodude",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Jamal",
+                    "Pokemon": [
+                        {
+                            "Name": "Buizel",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Buizel",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Buizel",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ruin Maniac Hunter",
+                    "Pokemon": [
+                        {
+                            "Name": "Shieldon",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Brady",
+                    "Pokemon": [
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 22"
+                        },
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 20"
+                        },
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Beauty Devon",
+                    "Pokemon": [
+                        {
+                            "Name": "Wormadam-Plant",
+                            "Level": "Lv. 25"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Psychic Carlos",
+                    "Pokemon": [
+                        {
+                            "Name": "Hypno",
+                            "Level": "Lv. 24"
+                        },
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Douglas",
+                    "Pokemon": [
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 20"
+                        },
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 22"
+                        },
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 24"
+                        }
+                    ]
+                }
             ]
         },
         "Route_215": {
@@ -8659,6 +10417,116 @@
                     "Cooldown": "3 days",
                     "Location": "Berry Tree next to the Veilstone City entrance."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Ruin Maniac Calvin",
+                    "Pokemon": [
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Shieldon",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Jogger Craig",
+                    "Pokemon": [
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 19"
+                        },
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 20"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Gregory",
+                    "Pokemon": [
+                        {
+                            "Name": "Meditite",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 22"
+                        },
+                        {
+                            "Name": "Meditite",
+                            "Level": "Lv. 21"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Nathaniel",
+                    "Pokemon": [
+                        {
+                            "Name": "Croagunk",
+                            "Level": "Lv. 21"
+                        },
+                        {
+                            "Name": "Machop",
+                            "Level": "Lv. 22"
+                        },
+                        {
+                            "Name": "Meditite",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Derek",
+                    "Pokemon": [
+                        {
+                            "Name": "Crawdaunt",
+                            "Level": "Lv. 25"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Dennis",
+                    "Pokemon": [
+                        {
+                            "Name": "Monferno",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Jogger Scott",
+                    "Pokemon": [
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Maya",
+                    "Pokemon": [
+                        {
+                            "Name": "Glameow",
+                            "Level": "Lv. 23"
+                        },
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 23"
+                        }
+                    ]
+                }
             ]
         },
         "Route_216": {
@@ -8821,6 +10689,121 @@
                     "Move": "Dragon Pulse",
                     "Cost": "8500",
                     "Location": "Directly north of the entrance from Mt. Coronet"
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Ace Trainer Laura",
+                    "Pokemon": [
+                        {
+                            "Name": "Lopunny",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Blake",
+                    "Pokemon": [
+                        {
+                            "Name": "Ambipom",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Kadabra",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Maria",
+                    "Pokemon": [
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Ponyta",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Sudowoodo",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Jenna",
+                    "Pokemon": [
+                        {
+                            "Name": "Graveler",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Graveler",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Snover",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Andrea",
+                    "Pokemon": [
+                        {
+                            "Name": "Staravia",
+                            "Level": "Lv. 38"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Dona",
+                    "Pokemon": [
+                        {
+                            "Name": "Roselia",
+                            "Level": "Lv. 36"
+                        },
+                        {
+                            "Name": "Snover",
+                            "Level": "Lv. 36"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Philip",
+                    "Pokemon": [
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 40"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Sharon",
+                    "Pokemon": [
+                        {
+                            "Name": "Sneasel",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Garrett",
+                    "Pokemon": [
+                        {
+                            "Name": "Mr. Mime",
+                            "Level": "Lv. 33"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Sneasel",
+                            "Level": "Lv. 35"
+                        }
+                    ]
                 }
             ]
         },
@@ -8993,6 +10976,150 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "Behind the Northmost tree nearing the entrance of Acuity Lakefront."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Ace Trainer Dalton",
+                    "Pokemon": [
+                        {
+                            "Name": "Electabuzz",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Magmar",
+                            "Level": "Lv. 40"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Jasmine",
+                    "Pokemon": [
+                        {
+                            "Name": "Snorunt",
+                            "Level": "Lv. 39"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Sharah",
+                    "Pokemon": [
+                        {
+                            "Name": "Snover",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Snover",
+                            "Level": "Lv. 36"
+                        },
+                        {
+                            "Name": "Snover",
+                            "Level": "Lv. 37"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Bjorna",
+                    "Pokemon": [
+                        {
+                            "Name": "Swinub",
+                            "Level": "Lv. 36"
+                        },
+                        {
+                            "Name": "Sneasel",
+                            "Level": "Lv. 38"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Luke",
+                    "Pokemon": [
+                        {
+                            "Name": "Croagunk",
+                            "Level": "Lv. 37"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 37"
+                        },
+                        {
+                            "Name": "Riolu",
+                            "Level": "Lv. 37"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Hiker Nathan",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 39"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 40"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Cute Boy Brad",
+                    "Pokemon": [
+                        {
+                            "Name": "Wailmer",
+                            "Level": "Lv. 37"
+                        },
+                        {
+                            "Name": "Wailord",
+                            "Level": "Lv. 39"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Skier Welsa",
+                    "Pokemon": [
+                        {
+                            "Name": "Glaceon",
+                            "Level": "Lv. 39"
+                        },
+                        {
+                            "Name": "Piloswine",
+                            "Level": "Lv. 37"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Peter",
+                    "Pokemon": [
+                        {
+                            "Name": "Kirlia",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Buneary",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Seaking",
+                            "Level": "Lv. 39"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Blackbelt Biddoue",
+                    "Pokemon": [
+                        {
+                            "Name": "Bronzor",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Buneary",
+                            "Level": "Lv. 39"
+                        }
+                    ]
                 }
             ]
         },
@@ -9235,6 +11362,64 @@
                     "Cooldown": "4 days",
                     "Location": "In the north-east of the patch of grass."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Fisherman Miguel",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 29"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 29"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Luc",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 26"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 26"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 26"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Sailor Skyler",
+                    "Pokemon": [
+                        {
+                            "Name": "Mantyke",
+                            "Level": "Lv. 27"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 31"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Guitarist Tony",
+                    "Pokemon": [
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 31"
+                        }
+                    ]
+                }
             ]
         },
         "Route_219": {
@@ -9365,6 +11550,34 @@
                     "Quantity": "2",
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the sand castle in the middle of the island. Requires Surf."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Tuber Mariel",
+                    "Pokemon": [
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 29"
+                        },
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 29"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Tuber Trenton",
+                    "Pokemon": [
+                        {
+                            "Name": "Shellos",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Shellos",
+                            "Level": "Lv. 33"
+                        }
+                    ]
                 }
             ]
         },
@@ -9520,6 +11733,86 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the large rock two tiles right from SwimmerTrollrah, the southmost swimmer."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Swimmer Jessica",
+                    "Pokemon": [
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Goldeen",
+                            "Level": "Lv. 31"
+                        },
+                        {
+                            "Name": "Seaking",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Erica",
+                    "Pokemon": [
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Adrian",
+                    "Pokemon": [
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Octillery",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Tentacool",
+                            "Level": "Lv. 30"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Erik",
+                    "Pokemon": [
+                        {
+                            "Name": "Tentacruel",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Trollrah",
+                    "Pokemon": [
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 33"
+                        },
+                        {
+                            "Name": "Gastrodon",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Claire",
+                    "Pokemon": [
+                        {
+                            "Name": "Floatzel",
+                            "Level": "Lv. 35"
+                        }
+                    ]
                 }
             ]
         },
@@ -9742,6 +12035,116 @@
                     "Quantity": "3",
                     "Cooldown": "Not respawnable",
                     "Location": "In the south-east corner of the route."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Swimmer Dillon",
+                    "Pokemon": [
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 33"
+                        },
+                        {
+                            "Name": "Floatzel",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Vanessa",
+                    "Pokemon": [
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Cory",
+                    "Pokemon": [
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 30"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 32"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 33"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Divent",
+                    "Pokemon": [
+                        {
+                            "Name": "Wailord",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Staraptor",
+                            "Level": "Lv. 36"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Shannon",
+                    "Pokemon": [
+                        {
+                            "Name": "Cherrim",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Azumarill",
+                            "Level": "Lv. 34"
+                        },
+                        {
+                            "Name": "Lopunny",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Ace Trainer Jake",
+                    "Pokemon": [
+                        {
+                            "Name": "Staraptor",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Girafarig",
+                            "Level": "Lv. 36"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Collector Ivan",
+                    "Pokemon": [
+                        {
+                            "Name": "Togetic",
+                            "Level": "Lv. 35"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Youngster Teerav",
+                    "Pokemon": [
+                        {
+                            "Name": "Wigglytuff",
+                            "Level": "Lv. 35"
+                        },
+                        {
+                            "Name": "Swellow",
+                            "Level": "Lv. 34"
+                        }
+                    ]
                 }
             ]
         },
@@ -10039,6 +12442,160 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On a stump in the center-north of the route, north-west from Mr. Taufan."
                 }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Rich Boy Trey",
+                    "Pokemon": [
+                        {
+                            "Name": "Luxio",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Fullheart",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 42"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman George",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 42"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman Laicram",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 39"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 42"
+                        },
+                        {
+                            "Name": "Feebas",
+                            "Level": "Lv. 39"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Tuber Holly",
+                    "Pokemon": [
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Fisherman James",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 44"
+                        },
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 47"
+                        },
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 44"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Beauty Nicola",
+                    "Pokemon": [
+                        {
+                            "Name": "Lopunny",
+                            "Level": "Lv. 45"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Mr. Taudan",
+                    "Pokemon": [
+                        {
+                            "Name": "Luxray",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Policeman Thomas",
+                    "Pokemon": [
+                        {
+                            "Name": "Noctowl",
+                            "Level": "Lv. 43"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Sailor Mark",
+                    "Pokemon": [
+                        {
+                            "Name": "Mantyke",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Tuber Conner",
+                    "Pokemon": [
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Sailor Luther",
+                    "Pokemon": [
+                        {
+                            "Name": "Feebas",
+                            "Level": "Lv. 37"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Gastrodon",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                }
             ]
         },
         "Route_223": {
@@ -10193,6 +12750,181 @@
                     "Quantity": "1",
                     "Cooldown": "Not respawnable",
                     "Location": "Hidden item. On the north-westmost rock on the largest island with a Krabby and Sailor Funarel."
+                }
+            ],
+            "trainers": [
+                {
+                    "Trainer": "Younger Francisco",
+                    "Pokemon": [
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 41"
+                        },
+                        {
+                            "Name": "Finneon",
+                            "Level": "Lv. 42"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Karpfever",
+                    "Pokemon": [
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 50"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 50"
+                        },
+                        {
+                            "Name": "Magikarp",
+                            "Level": "Lv. 50"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Troy",
+                    "Pokemon": [
+                        {
+                            "Name": "Gyarados",
+                            "Level": "Lv. 47"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Roronoa",
+                    "Pokemon": [
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Crystal",
+                    "Pokemon": [
+                        {
+                            "Name": "Buizel",
+                            "Level": "Lv. 41"
+                        },
+                        {
+                            "Name": "Tentacruel",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Raymon",
+                    "Pokemon": [
+                        {
+                            "Name": "Wingull",
+                            "Level": "Lv. 41"
+                        },
+                        {
+                            "Name": "Seaking",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Laicram",
+                    "Pokemon": [
+                        {
+                            "Name": "Tentacruel",
+                            "Level": "Lv. 43"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Asuna",
+                    "Pokemon": [
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 39"
+                        },
+                        {
+                            "Name": "Wingull",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Golduck",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Peter",
+                    "Pokemon": [
+                        {
+                            "Name": "Wingull",
+                            "Level": "Lv. 37"
+                        },
+                        {
+                            "Name": "Quagsire",
+                            "Level": "Lv. 42"
+                        },
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 41"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Sailor Funarel",
+                    "Pokemon": [
+                        {
+                            "Name": "Pelipper",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Machoke",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Gastrodon",
+                            "Level": "Lv. 44"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Xana",
+                    "Pokemon": [
+                        {
+                            "Name": "Marill",
+                            "Level": "Lv. 43"
+                        },
+                        {
+                            "Name": "Azumarill",
+                            "Level": "Lv. 44"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Kirito",
+                    "Pokemon": [
+                        {
+                            "Name": "Mantyke",
+                            "Level": "Lv. 38"
+                        },
+                        {
+                            "Name": "Remoraid",
+                            "Level": "Lv. 40"
+                        },
+                        {
+                            "Name": "Mantine",
+                            "Level": "Lv. 42"
+                        }
+                    ]
+                },
+                {
+                    "Trainer": "Swimmer Kennybme",
+                    "Pokemon": [
+                        {
+                            "Name": "Lumineon",
+                            "Level": "Lv. 43"
+                        }
+                    ]
                 }
             ]
         },
