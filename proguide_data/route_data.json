@@ -4507,6 +4507,13 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Directly south from the north entrance in Mt. Coronet Tunnel, in an area enclosed by Rock Smash rocks."
                 }
+            ],
+            "tutors": [
+                {
+                    "Move": "Bulldoze",
+                    "Cost": "15000",
+                    "Location": "Directly next to the exit to Route 216"
+                }
             ]
         },
         "Mt._Coronet_South": {
@@ -8803,6 +8810,18 @@
                     "Cooldown": "Not respawnable",
                     "Location": "Just before the westmost set of stairs."
                 }
+            ],
+            "tutors": [
+                {
+                    "Move": "Avalanche",
+                    "Cost": "15000",
+                    "Location": "north-east of the route"
+                },
+                {
+                    "Move": "Dragon Pulse",
+                    "Cost": "8500",
+                    "Location": "Directly north of the entrance from Mt. Coronet"
+                }
             ]
         },
         "Route_217": {
@@ -10176,6 +10195,245 @@
                     "Location": "Hidden item. On the north-westmost rock on the largest island with a Krabby and Sailor Funarel."
                 }
             ]
+        },
+        "Sendoff_Spring": {
+            "name": "Sendoff Spring",
+            "wild_pokemon": {
+                "Land": [
+                    {
+                        "Image": "pokemon/Bibarel.png",
+                        "Pok\u00e9mon": "Bibarel",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Chimecho.png",
+                        "Pok\u00e9mon": "Chimecho",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Rare",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Chingling.jpg",
+                        "Pok\u00e9mon": "Chingling",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Dusclops.png",
+                        "Pok\u00e9mon": "Dusclops",
+                        "Level Range": "53-57",
+                        "Held Item": "Reaper Cloth",
+                        "Rarity Tier": "Rare",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Golbat.png",
+                        "Pok\u00e9mon": "Golbat",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Golduck.png",
+                        "Pok\u00e9mon": "Golduck",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Graveler.png",
+                        "Pok\u00e9mon": "Graveler",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Munchlax.png",
+                        "Pok\u00e9mon": "Munchlax",
+                        "Level Range": "53-57",
+                        "Held Item": "Leftovers",
+                        "Rarity Tier": "Rare",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Noctowl.png",
+                        "Pok\u00e9mon": "Noctowl",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Staravia.png",
+                        "Pok\u00e9mon": "Staravia",
+                        "Level Range": "53-57",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Togetic.png",
+                        "Pok\u00e9mon": "Togetic",
+                        "Level Range": "40-45",
+                        "Held Item": "",
+                        "Rarity Tier": "Rare",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    }
+                ],
+                "Water": [
+                    {
+                        "Image": "pokemon/Goldeen.png",
+                        "Pok\u00e9mon": "Goldeen",
+                        "Level Range": "40-44",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Gyarados.jpg",
+                        "Pok\u00e9mon": "Gyarados",
+                        "Level Range": "40-44",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Magikarp.png",
+                        "Pok\u00e9mon": "Magikarp",
+                        "Level Range": "40-44",
+                        "Held Item": "",
+                        "Rarity Tier": "Common",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Poliwhirl.jpg",
+                        "Pok\u00e9mon": "Poliwhirl",
+                        "Level Range": "40-44",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    },
+                    {
+                        "Image": "pokemon/Seaking.png",
+                        "Pok\u00e9mon": "Seaking",
+                        "Level Range": "40-44",
+                        "Held Item": "",
+                        "Rarity Tier": "Uncommon",
+                        "Spawn Times": [
+                            "Morning",
+                            "Day",
+                            "Night"
+                        ]
+                    }
+                ],
+                "Headbuttable Trees": [
+                    {
+                        "Image": "pokemon/Starly.png",
+                        "Pok\u00e9mon": "Starly",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Common"
+                    },
+                    {
+                        "Image": "pokemon/Kricketot.png",
+                        "Pok\u00e9mon": "Kricketot",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Common"
+                    },
+                    {
+                        "Image": "pokemon/Cherubi.png",
+                        "Pok\u00e9mon": "Cherubi",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Common"
+                    },
+                    {
+                        "Image": "pokemon/Bidoof.png",
+                        "Pok\u00e9mon": "Bidoof",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Common"
+                    },
+                    {
+                        "Image": "pokemon/Chatot.png",
+                        "Pok\u00e9mon": "Chatot",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Uncommon"
+                    },
+                    {
+                        "Image": "pokemon/Joltik.png",
+                        "Pok\u00e9mon": "Joltik",
+                        "Level Range": "53-57",
+                        "Rarity Tier": "Rare"
+                    }
+                ]
+            }
         }
     }
 }
