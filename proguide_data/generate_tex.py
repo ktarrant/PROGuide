@@ -96,6 +96,29 @@ def generate_wild_pokemon_snippet(route_id: str, area: str, table: List, output_
     return doc
 
 
+def generate_items_snippet(route_id: str, table: List, output_file: str):
+    route_name = route_id.replace("_", " ")
+    spec = "|| l l l l ||"
+    doc = LongTable(spec)
+    doc.add_hline()
+    for entry in table:
+        doc.add_row([entry["Image"], entry["Item"], entry["Quantity"], entry["Cooldown"]])
+        # doc.add_row([entry["Location"]])
+        doc.add_hline()
+    doc.end_table_header()
+    doc.add_hline()
+
+    doc.append(Command("caption", f"Items in {route_name}"))
+    label_id = route_id + "_Items"
+    label_id = label_id
+    doc.append(Label(Marker(label_id, prefix="tab")))
+
+    with open(output_file, "w") as file:
+        doc.dump(file)
+
+    return doc
+
+
 def generate_route_snippets():
     route_data = get_route_data()
     for region in route_data:
@@ -108,6 +131,11 @@ def generate_route_snippets():
                     table = route_info["wild_pokemon"][area]
                     output_file = os.path.join(route_dir, "Wild_Pokémon_({}).tex".format(area.replace(" ", "_")))
                     generate_wild_pokemon_snippet(route_id, area, table, output_file)
+
+            if "items" in route_info:
+                table = route_info["items"]
+                output_file = os.path.join(route_dir, "Items.tex")
+                generate_items_snippet(route_id, table, output_file)
 
 
 if __name__ == "__main__":
