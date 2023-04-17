@@ -102,8 +102,8 @@ def generate_items_snippet(route_id: str, table: List, output_file: str):
     doc = LongTable(spec)
     doc.add_hline()
     for entry in table:
-        doc.add_row([entry["Image"], entry["Item"], entry["Quantity"], entry["Cooldown"]])
-        # doc.add_row([entry["Location"]])
+        doc.add_row([entry["Image"], entry["Item"], f"x {entry['Quantity']}", entry["Cooldown"]])
+        doc.append(NoEscape(r"\multicolumn{4}{||m{\textwidth}||}{" + entry["Location"] + "}"))
         doc.add_hline()
     doc.end_table_header()
     doc.add_hline()
