@@ -1,4 +1,21 @@
 {
+    "Johto": [
+        "New_Bark_Town", "Route_29", "Route_30",
+        "Cherrygrove_City", "Route_31",
+        "Violet_City", "Sprout_Tower", "Route_32", "Union_Cave", "Route_33",
+        "Azalea_Town", "Slowpoke_Well", "Ilex_Forest", "Route_34",
+        "Goldenrod_City", "Route_35",
+        "National_Park", "Route_36", "Route_37",
+        "Ecruteak_City", "Burned_Tower",
+        "Route_38", "Route_39",
+        "Olivine_City", "Route_40", "Route_41",
+        "Cianwood_City", "Route_47", "Cliff_Cave", "Route_48", "Route_42",
+        "Mahogany_Town", "Route_43", "Lake_of_Rage", "Route_44", "Ice_Path",
+        "Blackthorn_City", "Route_45", "Dark_Cave", "Route_46", "Dragon's_Den",
+        "Mt._Mortar", "Bell_Tower",
+        "Whirl_Islands", "Ruins_of_Alph",
+        "Route_27", "Route_26"
+    ],
     "Sinnoh": [
         "Lake_Verity", "Valor_Lakefront", "Lake_Valor", "Acuity_Lakefront",
         "Valley_Windworks", "Eterna_Forest",
